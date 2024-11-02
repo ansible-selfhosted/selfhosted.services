@@ -1,0 +1,18 @@
+namespace: selfhosted
+name: services
+version: 1.0.0
+readme: README.md
+authors:
+  - SpeakinTelnet <git@speakintel.net>
+
+description: A collection of ansible roles to deploy selfhosted services using Podman's Quadlet
+license_file: "LICENSE"
+
+tags:
+  - homelab
+  - selfhosted
+  - quadlet
+
+dependencies: {}
+repository: https://github.com/ansible-selfhosted/selfhosted.services
+issues: https://github.com/ansible-selfhosted/selfhosted.services/issues
