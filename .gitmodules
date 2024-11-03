@@ -1,0 +1,4 @@
+[submodule "homepage"]
+	path = roles/homepage
+	url = https://github.com/ansible-selfhosted/selfhosted.services.homepage.git
+	branch = main
