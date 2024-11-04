@@ -1,0 +1,26 @@
+---
+name: "Release collection on Ansible Galaxy"
+on:
+  release:
+    types: [published]
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    name: Galaxy release
+    environment: "release"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: "recursive"
+      - name: Build the collection
+        run: |
+          ansible-galaxy collection build -v --force
+      - name: Publish the collection on Galaxy
+        run: >
+          [[ "${{ secrets.GALAXY_API_KEY != '' }}" ]] || { echo
+          "ansible_galaxy_api_key is required to publish on galaxy" ; exit 1; }
+
+          TARBALL=$(ls -1 ./*.tar.gz)
+
+          ansible-galaxy collection publish "${TARBALL}" --api-key "${{
+          secrets.GALAXY_API_KEY }}"
