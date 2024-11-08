@@ -2,3 +2,7 @@
 	path = roles/homepage
 	url = https://github.com/ansible-selfhosted/selfhosted.services.homepage.git
 	branch = main
+[submodule "gitea"]
+	path = roles/gitea
+	url = https://github.com/ansible-selfhosted/selfhosted.services.gitea.git
+	branch = main
