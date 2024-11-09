@@ -6,3 +6,7 @@
 	path = roles/gitea
 	url = https://github.com/ansible-selfhosted/selfhosted.services.gitea.git
 	branch = main
+[submodule "jellyfin"]
+	path = roles/jellyfin
+	url = https://github.com/ansible-selfhosted/selfhosted.services.jellyfin.git
+	branch = main
