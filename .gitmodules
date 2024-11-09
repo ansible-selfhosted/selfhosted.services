@@ -10,3 +10,7 @@
 	path = roles/jellyfin
 	url = https://github.com/ansible-selfhosted/selfhosted.services.jellyfin.git
 	branch = main
+[submodule "frigate"]
+	path = roles/frigate
+	url = https://github.com/ansible-selfhosted/selfhosted.services.frigate.git
+	branch = main
