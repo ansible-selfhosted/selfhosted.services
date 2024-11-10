@@ -14,3 +14,7 @@
 	path = roles/frigate
 	url = https://github.com/ansible-selfhosted/selfhosted.services.frigate.git
 	branch = main
+[submodule "sonarr"]
+	path = roles/sonarr
+	url = https://github.com/ansible-selfhosted/selfhosted.services.sonarr.git
+	branch = main
