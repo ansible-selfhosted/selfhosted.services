@@ -18,3 +18,7 @@
 	path = roles/sonarr
 	url = https://github.com/ansible-selfhosted/selfhosted.services.sonarr.git
 	branch = main
+[submodule "radarr"]
+	path = roles/radarr
+	url = https://github.com/ansible-selfhosted/selfhosted.services.radarr.git
+	branch = main
