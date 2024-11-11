@@ -34,3 +34,7 @@
 	path = roles/readarr
 	url = https://github.com/ansible-selfhosted/selfhosted.services.readarr.git
 	branch = main
+[submodule "jellyseerr"]
+	path = roles/jellyseerr
+	url = https://github.com/ansible-selfhosted/selfhosted.services.jellyseerr.git
+	branch = main
