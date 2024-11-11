@@ -22,3 +22,7 @@
 	path = roles/radarr
 	url = https://github.com/ansible-selfhosted/selfhosted.services.radarr.git
 	branch = main
+[submodule "lidarr"]
+	path = roles/lidarr
+	url = https://github.com/ansible-selfhosted/selfhosted.services.lidarr.git
+	branch = main
