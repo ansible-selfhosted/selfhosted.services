@@ -42,3 +42,7 @@
 	path = roles/bookstack
 	url = https://github.com/ansible-selfhosted/selfhosted.services.bookstack.git
 	branch = main
+[submodule "pihole"]
+	path = roles/pihole
+	url = https://github.com/ansible-selfhosted/selfhosted.services.pihole.git
+	branch = main
