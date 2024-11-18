@@ -38,3 +38,7 @@
 	path = roles/jellyseerr
 	url = https://github.com/ansible-selfhosted/selfhosted.services.jellyseerr.git
 	branch = main
+[submodule "bookstack"]
+	path = roles/bookstack
+	url = https://github.com/ansible-selfhosted/selfhosted.services.bookstack.git
+	branch = main
