@@ -4,6 +4,20 @@ selfhosted.services Release Notes
 
 .. contents:: Topics
 
+v1.3.0
+======
+
+Major Changes
+-------------
+
+- Added Bookstack role (commit 98869fb78c6bddf536969f9a7d37b4a682de2575)
+- Added Pi-Hole Role (commit db981f6f9ea1d14509b9979e7bc306911b638773)
+
+Minor Changes
+-------------
+
+- Updated all roles to their latest release 
+
 v1.2.0
 ======
 
