@@ -4,6 +4,17 @@ selfhosted.services Release Notes
 
 .. contents:: Topics
 
+V1.3.1
+======
+
+Minor Changes
+-------------
+
+- Update all services to latest commits
+- Fix selinux volume label missing from templates
+- Fix discrepencies between actual and documented default variables
+- Remove yamllint from workflow in favor of ansible-lint
+
 v1.3.0
 ======
 
