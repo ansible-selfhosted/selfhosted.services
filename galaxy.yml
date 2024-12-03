@@ -8,7 +8,7 @@ authors:
 
 description: >
   A collection of ansible roles to deploy selfhosted services using Podman's Quadlet
-license_file: "LICENSE"
+license_file: LICENSE
 
 tags:
   - infrastructure

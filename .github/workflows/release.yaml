@@ -1,5 +1,5 @@
 ---
-name: "Release collection on Ansible Galaxy"
+name: Release collection on Ansible Galaxy
 on:
   release:
     types: [published]
@@ -7,11 +7,11 @@ jobs:
   release:
     runs-on: ubuntu-latest
     name: Galaxy release
-    environment: "release"
+    environment: release
     steps:
       - uses: actions/checkout@v4
         with:
-          submodules: "recursive"
+          submodules: recursive
       - name: Build the collection
         run: |
           ansible-galaxy collection build -v --force
