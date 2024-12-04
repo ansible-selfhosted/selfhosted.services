@@ -4,6 +4,14 @@ selfhosted.services Release Notes
 
 .. contents:: Topics
 
+V1.3.2
+======
+
+Minor Changes
+-------------
+
+- remove recursive attribute for folder creation
+
 V1.3.1
 ======
 
