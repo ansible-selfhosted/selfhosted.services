@@ -46,3 +46,11 @@
 	path = roles/pihole
 	url = https://github.com/ansible-selfhosted/selfhosted.services.pihole.git
 	branch = main
+[submodule "kavita"]
+	path = roles/kavita
+	url = https://github.com/ansible-selfhosted/selfhosted.services.kavita.git
+	branch = main
+[submodule "sabnzbd"]
+	path = roles/sabnzbd
+	url = https://github.com/ansible-selfhosted/selfhosted.services.sabnzbd.git
+	branch = main
