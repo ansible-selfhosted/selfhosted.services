@@ -4,6 +4,28 @@ selfhosted.services Release Notes
 
 .. contents:: Topics
 
+V1.4.0
+======
+
+Major Changes
+-------------
+
+- Added Kavita role (commit a04e6be409c01b0d25c646056dccddbec2463680)
+- Added Sabnzbd Role (commit a04e6be409c01b0d25c646056dccddbec2463680)
+
+Minor Changes
+-------------
+
+- Update all services to latest commits
+- Added the option for folder labeling
+- Added the option for custom container values
+- locked down github actions to specific versions
+
+Breaking
+--------
+
+- Jellyfin now use /data instead of /media for uniformity with other services
+
 V1.3.2
 ======
 
