@@ -4,6 +4,14 @@ selfhosted.services Release Notes
 
 .. contents:: Topics
 
+V1.4.1
+======
+
+Fix
+---
+
+- Fix a typo with Bookstack db template (commit b752ac10b5814c00b7245ae68b445c6a84ad2fea)
+
 V1.4.0
 ======
 
